@@ -6,7 +6,7 @@
 
   .project {
     &.unknown    > .progress { background-color: #9d9d9d; }
-    &.successful > .progress { background-color: green; }
+    &.successful > .progress { background-color: #00755e; }
     &.unstable   > .progress { background-color: #f9aa1c; }
     &.failing    > .progress { background-color: firebrick; }
     &.aborted    > .progress { background-color: #909090; }
@@ -53,15 +53,15 @@
 @-webkit-keyframes  forUnknown    { 0% {background-color: #9d9d9d;}   100% {background-color: grey;} }
 @-moz-keyframes     forUnknown    { 0% {background-color: #9d9d9d;}   100% {background-color: grey;} }
 @keyframes          forUnknown    { 0% {background-color: #9d9d9d;}   100% {background-color: grey;} }
-@-webkit-keyframes  forSuccessful { 0% {background-color: green;}     100% {background-color: limegreen;} }
-@-moz-keyframes     forSuccessful { 0% {background-color: green;}     100% {background-color: limegreen;} }
-@keyframes          forSuccessful { 0% {background-color: green;}     100% {background-color: limegreen;} }
+@-webkit-keyframes  forSuccessful { 0% {background-color: #00755e;}     100% {background-color: #009679;} }
+@-moz-keyframes     forSuccessful { 0% {background-color: #00755e;}     100% {background-color: #009679;} }
+@keyframes          forSuccessful { 0% {background-color: #00755e;}     100% {background-color: #009679;} }
 @-webkit-keyframes  forUnstable   { 0% {background-color: #f9aa1c;}   100% {background-color: #ffc500;} }
 @-moz-keyframes     forUnstable   { 0% {background-color: #f9aa1c;}   100% {background-color: #ffc500;} }
 @keyframes          forUnstable   { 0% {background-color: #f9aa1c;}   100% {background-color: #ffc500;} }
-@-webkit-keyframes  forFailing    { 0% {background-color: firebrick;} 100% {background-color: red;} }
-@-moz-keyframes     forFailing    { 0% {background-color: firebrick;} 100% {background-color: red;} }
-@keyframes          forFailing    { 0% {background-color: firebrick;} 100% {background-color: red;} }
+@-webkit-keyframes  forFailing    { 0% {background-color: firebrick;} 100% {background-color: #b73c2f;} }
+@-moz-keyframes     forFailing    { 0% {background-color: firebrick;} 100% {background-color: #b73c2f;} }
+@keyframes          forFailing    { 0% {background-color: firebrick;} 100% {background-color: #b73c2f;} }
 @-webkit-keyframes  forAborted    { 0% {background-color: #909090;} 100% {background-color: #a9a9a9;} }
 @-moz-keyframes     forAborted    { 0% {background-color: #909090;} 100% {background-color: #a9a9a9;} }
 @keyframes          forAborted    { 0% {background-color: #909090;} 100% {background-color: #a9a9a9;} }

@@ -58,13 +58,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align:center;
     margin:0; padding:0;
 }
-.build-monitor { color:#fff; }
-.build-monitor header>h1 {
-    text-shadow: 2px 2px rgba(0,0,0,0.5);
-}
-h2 {
-    text-shadow: 1px 1px rgba(0,0,0,0.5);
-}
+.build-monitor { color:#2c3e50; }
 
 .build-monitor a {
     color: #73BFFF;
@@ -74,7 +68,7 @@ h2 {
 .build-monitor #widgets li a,
 .build-monitor #widgets li a:visited,
 .build-monitor header>h1>a{
-    color:white;
+      color:#4c5559;
 }
 .build-monitor a:hover {
     text-decoration: underline;
@@ -93,7 +87,7 @@ h2 {
     background: url('industrial/jenkins-logo.png') no-repeat;
     background-size: 100%;
     width: 50px;  /* 100 */
-    height: 69px; /* 138 */
+    height: 69px; /* 138 */    
     text-indent: -100%;
     text-decoration: none;
     white-space: nowrap;
@@ -108,10 +102,10 @@ h2 {
     margin: 0 0 0.5em 0;
 }
 
-.build-monitor .unknown    { background-color:#474747; }
-.build-monitor .successful { background-color:darkgreen; }
-.build-monitor .unstable   { background-color:#f59400; }
-.build-monitor .failing    { background-color:darkred; }
+.build-monitor .unknown    { background-color:#95a5a6; }
+.build-monitor .successful { background-color:#00b894; }
+.build-monitor .unstable   { background-color:#e74c3c; }
+.build-monitor .failing    { background-color:#ff7675; }
 /* same grey background because in each case there's no visibility of what's wrong with the build */
 .build-monitor .aborted,
 .build-monitor .disabled   { background-color:grey; }
@@ -221,8 +215,6 @@ h2 {
 .no-flexbox .build-monitor.dashboard * {
     display:none;
 }
-
-.dashboard { background: url('industrial/background.png'); }
 
 .build-monitor #widgets.empty em {
     padding:5em 0 0 0;
